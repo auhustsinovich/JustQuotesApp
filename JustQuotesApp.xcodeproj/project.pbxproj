@@ -56,15 +56,47 @@
 		A514308228D76DD10077C0C3 /* JustQuotesApp */ = {
 			isa = PBXGroup;
 			children = (
-				A514308328D76DD10077C0C3 /* AppDelegate.swift */,
-				A514308528D76DD10077C0C3 /* SceneDelegate.swift */,
-				A514308728D76DD10077C0C3 /* ViewController.swift */,
-				A514308928D76DD10077C0C3 /* Main.storyboard */,
-				A514308C28D76DD20077C0C3 /* Assets.xcassets */,
-				A514308E28D76DD20077C0C3 /* LaunchScreen.storyboard */,
-				A514309128D76DD20077C0C3 /* Info.plist */,
+				A514309928D76DF90077C0C3 /* App */,
+				A514309A28D76E060077C0C3 /* ViewControllers */,
+				A514309728D76DDE0077C0C3 /* Storyboards */,
+				A514309828D76DEF0077C0C3 /* Resources */,
 			);
 			path = JustQuotesApp;
+			sourceTree = "<group>";
+		};
+		A514309728D76DDE0077C0C3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A514308928D76DD10077C0C3 /* Main.storyboard */,
+				A514308E28D76DD20077C0C3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A514309828D76DEF0077C0C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A514308C28D76DD20077C0C3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A514309928D76DF90077C0C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A514308328D76DD10077C0C3 /* AppDelegate.swift */,
+				A514308528D76DD10077C0C3 /* SceneDelegate.swift */,
+				A514309128D76DD20077C0C3 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A514309A28D76E060077C0C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A514308728D76DD10077C0C3 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7M6FD6244;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JustQuotesApp/Info.plist;
+				INFOPLIST_FILE = JustQuotesApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7M6FD6244;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JustQuotesApp/Info.plist;
+				INFOPLIST_FILE = JustQuotesApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
